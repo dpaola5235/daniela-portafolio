@@ -5,21 +5,13 @@
 
 .centrado{
     align-items: center;
+    align-content: center;
 }
 
-/*.background{
-    background-color: #F9E79F;
-    height: 100vh;
+.box{
+    height: 100vh; 
+    display: grid;
 }
-
-.color-back{
-    background-color: #D7DBDD;
-    height: 100vh;
-}
-
-.color-nav{
-    background-color: #2471A3;
-}*/
 
 .img{
     width: 50%;
@@ -46,8 +38,9 @@ h3{
 }
 
 .descargar{
+    display: flex;
     align-content: center;  
-    width: 35%;
+    width: max-content;
     height: 60px;
     font-family: Verdana;
     color: #808B96;
@@ -56,15 +49,15 @@ h3{
 }
 
 .position{
-    margin-top: 350px;
-}
-
-.cards{
     margin: 15px;
+    margin-left: 15px;
+    display: grid;
 }
 
 .card{
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);        
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 15px;       
 }
 
 .phone{
@@ -79,12 +72,10 @@ h3{
     color: red;
 }
 
-/*.nav-link{
-    background-color: #DAF7A6;
-    color: black;
+.image{
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+    width: 45%;
+    height: 45%;
 }
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {    
-    background-color: #95A5A6;
-    color: black;
-}*/
